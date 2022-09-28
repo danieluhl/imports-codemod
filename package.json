@@ -1,0 +1,11 @@
+{
+  "name": "imports-codemod",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:danieluhl/imports-codemod.git",
+  "author": "Dan Uhl <duhl@wayfair.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jscodeshift": "^0.13.1"
+  }
+}

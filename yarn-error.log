@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/bin/node /Users/danieluhl/.yarn/bin/yarn.js add codeshift
+
+PATH: 
+  /Users/danieluhl/.yarn/bin:/Users/danieluhl/.config/yarn/global/node_modules/.bin:/Users/danieluhl/google-cloud-sdk/bin:/Users/duhl/Library/pnpm:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/danieluhl/.cargo/bin:/usr/local/bin:/usr/local/share/npm/bin:/usr/local/lib/node_modules:/Users/danieluhl/bin:/Users/danieluhl/go/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.8.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/codeshift: Not found
+      at params.callback [as _callback] (/Users/danieluhl/.yarn/lib/cli.js:66145:18)
+      at self.callback (/Users/danieluhl/.yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/Users/danieluhl/.yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/Users/danieluhl/.yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "imports-codemod",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:danieluhl/imports-codemod.git",
+    "author": "Dan Uhl <duhl@wayfair.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
